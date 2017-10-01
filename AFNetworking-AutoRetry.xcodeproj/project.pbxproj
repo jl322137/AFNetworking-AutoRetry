@@ -12,7 +12,7 @@
 		35D93CAE56ABFA2E29A23C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D93BD14242A0522AC0FE7A /* Foundation.framework */; };
 		35D93D765BB37E25F0C477E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D939A26664FAFE30C01907 /* UIKit.framework */; };
 		35D93DF0E51C7F46D8069429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D93BD14242A0522AC0FE7A /* Foundation.framework */; };
-		ECAFE1AED0034D5080F67E53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7135D125C62044819695FCA7 /* libPods.a */; };
+		B962674646C78ADF8678C4A0 /* Pods_AFNetworking_AutoRetry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA7BA6D0971B386431B178 /* Pods_AFNetworking_AutoRetry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +40,15 @@
 /* Begin PBXFileReference section */
 		0E14994F1C5A1868006D4299 /* AFHTTPSessionManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AutoRetry.h"; sourceTree = SOURCE_ROOT; };
 		0E1499501C5A1868006D4299 /* AFHTTPSessionManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AutoRetry.m"; sourceTree = SOURCE_ROOT; };
+		10AA7BA6D0971B386431B178 /* Pods_AFNetworking_AutoRetry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworking_AutoRetry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213CEE7FCD030CCAF7F9C9C9 /* Pods-AFNetworking-AutoRetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking-AutoRetry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking-AutoRetry/Pods-AFNetworking-AutoRetry.debug.xcconfig"; sourceTree = "<group>"; };
+		2D4FE430F318367CAF51FC3F /* Pods-AFNetworking-AutoRetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking-AutoRetry.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking-AutoRetry/Pods-AFNetworking-AutoRetry.release.xcconfig"; sourceTree = "<group>"; };
 		35D9383FF1FD8220D3D4A3E7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35D938B9DE4C6674EDF61DF8 /* AFNetworking+AutoRetry.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = "AFNetworking+AutoRetry.podspec"; sourceTree = "<group>"; };
 		35D939A26664FAFE30C01907 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35D93B5F475C87CD9CACC72F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		35D93BD14242A0522AC0FE7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35D93C3CB1526F8767664F25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		7135D125C62044819695FCA7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		84955A2A1FE70466674E27CE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C2F17DD6C162F762832F2C1F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D93CAE56ABFA2E29A23C08 /* Foundation.framework in Frameworks */,
-				ECAFE1AED0034D5080F67E53 /* libPods.a in Frameworks */,
+				B962674646C78ADF8678C4A0 /* Pods_AFNetworking_AutoRetry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 				0E14994F1C5A1868006D4299 /* AFHTTPSessionManager+AutoRetry.h */,
 				0E1499501C5A1868006D4299 /* AFHTTPSessionManager+AutoRetry.m */,
 			);
-			path = "AFNetworking-AutoRetry";
+			name = "AFNetworking-AutoRetry";
 			sourceTree = "<group>";
 		};
 		35D93219FD355F7D2EF130F2 /* Frameworks */ = {
@@ -89,7 +89,7 @@
 				35D93BD14242A0522AC0FE7A /* Foundation.framework */,
 				35D93C3CB1526F8767664F25 /* XCTest.framework */,
 				35D939A26664FAFE30C01907 /* UIKit.framework */,
-				7135D125C62044819695FCA7 /* libPods.a */,
+				10AA7BA6D0971B386431B178 /* Pods_AFNetworking_AutoRetry.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,15 +110,15 @@
 				35D93B5F475C87CD9CACC72F /* LICENSE */,
 				35D938B9DE4C6674EDF61DF8 /* AFNetworking+AutoRetry.podspec */,
 				35D9383FF1FD8220D3D4A3E7 /* Podfile */,
-				584ABDE19D9FCD115020CE6B /* Pods */,
+				D533F41B9AE7D4C594380BD5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		584ABDE19D9FCD115020CE6B /* Pods */ = {
+		D533F41B9AE7D4C594380BD5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84955A2A1FE70466674E27CE /* Pods.release.xcconfig */,
-				C2F17DD6C162F762832F2C1F /* Pods.debug.xcconfig */,
+				2D4FE430F318367CAF51FC3F /* Pods-AFNetworking-AutoRetry.release.xcconfig */,
+				213CEE7FCD030CCAF7F9C9C9 /* Pods-AFNetworking-AutoRetry.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,11 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35D9369772E040B700AF91AF /* Build configuration list for PBXNativeTarget "AFNetworking-AutoRetry" */;
 			buildPhases = (
-				C8BDE9318D774086A9BBD725 /* Check Pods Manifest.lock */,
+				F5266D708AE377A6C0C28112 /* [CP] Check Pods Manifest.lock */,
 				35D937754D91119C71CA102E /* Sources */,
 				35D93C73225D6398D201778D /* Frameworks */,
 				35D93E2F21A86EDCF57D5B72 /* CopyFiles */,
-				49EEC5BBC80543DDA5966EDF /* Copy Pods Resources */,
+				8B4619C6E2CFDA105C0CE50B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,6 +167,7 @@
 		35D93718DAF00A5D7A87FD46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 			};
 			buildConfigurationList = 35D937547C3123256E75348F /* Build configuration list for PBXProject "AFNetworking-AutoRetry" */;
@@ -198,34 +199,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		49EEC5BBC80543DDA5966EDF /* Copy Pods Resources */ = {
+		8B4619C6E2CFDA105C0CE50B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworking-AutoRetry/Pods-AFNetworking-AutoRetry-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8BDE9318D774086A9BBD725 /* Check Pods Manifest.lock */ = {
+		F5266D708AE377A6C0C28112 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworking-AutoRetry-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -280,24 +284,35 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -305,11 +320,11 @@
 		};
 		35D938DC094EABFFAF36C81D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2F17DD6C162F762832F2C1F /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 213CEE7FCD030CCAF7F9C9C9 /* Pods-AFNetworking-AutoRetry.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AFNetworking_AutoRetry.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AFNetworking-AutoRetry/AFNetworking-AutoRetry-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -319,11 +334,11 @@
 		};
 		35D93CBBB38C1BAE1225B8AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84955A2A1FE70466674E27CE /* Pods.release.xcconfig */;
+			baseConfigurationReference = 2D4FE430F318367CAF51FC3F /* Pods-AFNetworking-AutoRetry.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/AFNetworking_AutoRetry.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AFNetworking-AutoRetry/AFNetworking-AutoRetry-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -354,17 +369,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -377,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
